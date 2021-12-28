@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  padding: 2rem;
   background-color: var(--background-color, #fff);
   flex-grow: 1;
 }
