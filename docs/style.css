@@ -24,7 +24,6 @@ body {
   flex-direction: column;
   padding: 1.5rem;
   background-color: #333;
-
   min-width: 130px;
   width: 20%;
 }
@@ -75,4 +74,15 @@ body {
   background-color: #fff;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 50em) {
+  body {
+    font-size: 1rem;
+  }
+
+  #box {
+    width: 150px;
+    height: 150px;
+  }
 }
